@@ -1,0 +1,236 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+ 
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+ 
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+ 
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+ 
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+ 
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+ 
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+ 
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+ 
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+ 
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+ 
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+ 
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+ 
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+ 
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+ 
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+ 
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground dark;
+  }
+}
+
+/* Add text gradient utility class */
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-white to-white/70;
+}
+
+/* Reactflow specific styles */
+.react-flow__edge-path {
+  stroke: #aaa;
+  stroke-width: 2;
+  transition: stroke 0.2s;
+}
+
+.react-flow__edge.selected .react-flow__edge-path,
+.react-flow__edge:hover .react-flow__edge-path {
+  stroke: #fff;
+  stroke-width: 3;
+}
+
+.react-flow__node {
+  border-radius: 6px;
+  padding: 10px;
+  min-width: 320px;
+}
+
+.react-flow .react-flow__handle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.4;
+  transition: opacity 0.3s;
+  z-index: 10;
+}
+
+.react-flow .react-flow__handle:hover {
+  opacity: 1;
+}
+
+.react-flow .react-flow__handle.connectionindicator {
+  opacity: 1;
+}
+
+.react-flow .react-flow__handle.connecting {
+  opacity: 1;
+  border-color: #fff;
+}
+
+.react-flow .react-flow__handle.connectingfrom,
+.react-flow .react-flow__handle.connectingto {
+  opacity: 1;
+  border-color: #fff;
+  background-color: #fff;
+}
+
+.flow-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.sidebar {
+  padding: 15px;
+  border-right: 1px solid #444;
+  height: 100vh;
+  background-color: #1a1a1a;
+  overflow-y: auto;
+}
+
+.editable-title {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.editable-title:focus {
+  outline: 1px dashed #aaa;
+}
+
+.editable-description {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  font-size: 0.9em;
+  width: 100%;
+  resize: none;
+  min-height: 120px;
+  max-height: 120px;
+  overflow-y: auto;
+}
+
+.editable-description:focus {
+  outline: 1px dashed #aaa;
+}
+
+/* Dark mode styles for ReactFlow */
+.react-flow {
+  background-color: #111827;
+}
+
+.react-flow__controls {
+  background: #1f2937;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  padding: 4px;
+}
+
+.react-flow__controls-button {
+  background: #2d3748;
+  border: none;
+  color: #e5e7eb;
+  border-radius: 4px;
+}
+
+.react-flow__controls-button:hover {
+  background: #4b5563;
+}
+
+.react-flow__minimap {
+  background-color: #1f2937;
+  border-radius: 8px;
+}
+
+.react-flow__attribution {
+  background: transparent;
+  color: #9ca3af;
+}
+
+/* View mode styles */
+.view-mode .react-flow__handle {
+  display: none;
+}
+
+/* Connection fixes */
+.react-flow__connection-path {
+  stroke: #fff;
+  stroke-width: 2;
+}
+
+.react-flow__connection {
+  z-index: 1000;
+}
+
+/* Edge selection styling */
+.react-flow__edge.selected {
+  z-index: 1001;
+}
+
+/* Custom node color indicators */
+.custom-node-indicator {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
