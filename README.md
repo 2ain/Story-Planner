@@ -2,11 +2,42 @@
 
 Resizable blocks
 
-Highlightable areas on the canvas
-
 Improved view mode
 
 Themes
+
+# 📢 Version 1.1 Addition - 14/05/2025
+
+Highlightable Areas on the Canvas
+
+You can now highlight certain blocks on your canvas, this can be used stay organised for bigger projects, these highlights also stay when exporting/importing
+![Image](https://github.com/user-attachments/assets/5d85be55-099d-419f-b45c-7ea192d9bb53)
+
+## How to use?
+
+You will see a new button in the top right
+
+![Image](https://github.com/user-attachments/assets/534fa6ab-5e10-4a4d-902e-3a1676d68f18)
+
+Once selected you will be in a "Highlight" mode, during this you will be able to hold right click on the canvas and draw a box in a selected color
+
+Additionally, when you are in highlight mode you wont be able to select or move your blocks till out of highlight mode
+
+![Image](https://github.com/user-attachments/assets/fece1739-47ac-4f21-b7c9-bcf43c3916bc)
+
+additionally you can change the color or even delete the highlight once placed down 
+
+![Image](https://github.com/user-attachments/assets/7acc5a9a-2d86-408d-a236-f38933dd628a)
+
+# 📢 Version 1.0.2 Fixes - 12/05/2025
+
+🔧Fixed a bug where the custom blocks footers would be changing with the title of the block instead of staying what the block was named
+
+⚙️Changed Character Blocks so they are square to stay consistent
+
+# 📢 Version 1.0.1 Fixes - 12/05/2025
+
+🔧Fixed Exporting/Importing
 
 # Story Planner
 
