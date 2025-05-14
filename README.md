@@ -1,10 +1,10 @@
 ## 📌Planned Additions & Improvements
 
-Resizable blocks
+📝Resizable blocks
 
-Improved view mode
+📝Improved view mode
 
-Themes
+📝Themes
 
 # 📢 Version 1.1 Addition - 14/05/2025
 
@@ -29,13 +29,13 @@ additionally you can change the color or even delete the highlight once placed d
 
 ![Image](https://github.com/user-attachments/assets/7acc5a9a-2d86-408d-a236-f38933dd628a)
 
-# 📢 Version 1.0.2 Fixes - 12/05/2025
+# 🛠️ Version 1.0.2 Fixes - 12/05/2025
 
 🔧Fixed a bug where the custom blocks footers would be changing with the title of the block instead of staying what the block was named
 
 ⚙️Changed Character Blocks so they are square to stay consistent
 
-# 📢 Version 1.0.1 Fixes - 11/05/2025
+# 🛠️ Version 1.0.1 Fixes - 11/05/2025
 
 🔧Fixed Exporting/Importing
 
