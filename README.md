@@ -8,7 +8,7 @@
 
 # 📢 Version 1.1 Addition - 14/05/2025
 
-Highlightable Areas on the Canvas
+## Highlightable Areas
 
 You can now highlight certain blocks on your canvas, this can be used stay organised for bigger projects, these highlights also stay when exporting/importing
 ![Image](https://github.com/user-attachments/assets/5d85be55-099d-419f-b45c-7ea192d9bb53)
