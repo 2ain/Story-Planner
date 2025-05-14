@@ -35,7 +35,7 @@ additionally you can change the color or even delete the highlight once placed d
 
 ⚙️Changed Character Blocks so they are square to stay consistent
 
-# 📢 Version 1.0.1 Fixes - 12/05/2025
+# 📢 Version 1.0.1 Fixes - 11/05/2025
 
 🔧Fixed Exporting/Importing
 
