@@ -2,8 +2,6 @@
 
 📝Resizable blocks
 
-📝Improved view mode
-
 📝Themes
 
 # 📢 Version 1.1 Addition - 14/05/2025
@@ -28,6 +26,17 @@ Additionally, when you are in highlight mode you wont be able to select or move 
 additionally you can change the color or even delete the highlight once placed down 
 
 ![Image](https://github.com/user-attachments/assets/7acc5a9a-2d86-408d-a236-f38933dd628a)
+
+## Improved View mode
+Improved view mode, no longer able to see the delete button when in view mode
+
+**Before** (Version 1.0)
+
+![Image](https://github.com/user-attachments/assets/992a5f7a-b676-4fda-b861-7ed44d9f50bb)
+
+**After** (Version 1.1)
+
+![Image](https://github.com/user-attachments/assets/a11a33fb-a205-4fa9-ae3a-d9dacb595e61)
 
 # 🛠️ Version 1.0.2 Fixes - 12/05/2025
 
