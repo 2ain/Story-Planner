@@ -112,3 +112,5 @@ The server will start on port 8080, access the application in your browser at: h
 # License
 
 ## [MIT](https://github.com/2ain/Story-Planner/blob/main/LICENSE)
+
+Older versions and commit history may have been lost in this GitHub repository. This project also serves as a learning experience for me to get more familiar with Git
